@@ -1,0 +1,135 @@
+/* Global reset and border styling */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 1px solid rgba(108, 92, 231, 0.2); /* Light purple border */
+}
+
+/* Heading styling */
+h1 {
+    text-align: center;
+    color: #0056b3;
+    margin-bottom: 30px;
+}
+
+/* Form styling */
+form {
+    background-color: #ffffff;
+    max-width: 600px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Fieldset styling */
+fieldset {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 25px;
+    background-color: #fafafa;
+}
+
+/* Legend styling */
+legend {
+    padding: 0 10px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #444;
+}
+
+/* Paragraph styling */
+p {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+/* Label styling */
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+/* Input and textarea styling */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+/* Focus effect */
+input:focus,
+select:focus,
+textarea:focus {
+    border-color: #2196f3;
+    box-shadow: 0 0 8px rgba(33, 150, 243, 0.3);
+    outline: none;
+}
+
+/* Radio and checkbox scaling */
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 8px;
+    transform: scale(1.1);
+}
+
+/* Textarea resizing */
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+/* Custom class for inputs */
+.form-input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+}
+
+/* Button styling */
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #0ae04e;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Button group styling */
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+/* Button hover effects */
+button:hover {
+    background-color: #5a4bcf;
+}
+
+/* Reset button styles */
+button[type="reset"] {
+    background-color: #d63031;
+}
+
+button[type="reset"]:hover {
+    background-color: #c0392b;
+}
